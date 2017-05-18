@@ -1,0 +1,21 @@
+<% provide(:title, @user.name) %>
+<%= headimg_for @user, size: 80 %>
+<div class='user-name'>
+<h3>用户名</h3>
+<%= @user.name %>
+</div>
+<div class='user-email'>
+<h3>邮箱</h3>
+<%= @user.email %>
+</div>
+<div class='user-created-at'>
+<h3>注册时间</h3>
+<%= @user.created_at %>
+</div>
+<div class='user-updated-at'>
+<h3>修改资料时间</h3>
+<%= @user.updated_at %>
+</div>
+<div>
+现在时间：<%= Time.now %>
+</div>

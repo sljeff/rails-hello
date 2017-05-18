@@ -1,0 +1,28 @@
+.header, .footer{
+    text-align: center;
+    font-size: 18px;
+    background: #999;
+    top: 0px;
+    height: 1em;
+    padding: 0.5em;
+}
+
+.signup-form{
+    margin-bottom: 20px;
+    input:last-child{
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+.msg-success{
+    font-size: 20px;
+    font-color: blue;
+    margin: 10px;
+    text-align: center;
+    border: solid;
+    border-size: 2px;
+    border-color: red;
+    min-height: 2em;
+    padding: 1em;
+}
